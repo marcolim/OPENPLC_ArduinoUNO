@@ -509,6 +509,3 @@ void Modbus::writeMultipleCoils(byte* frame,word startreg, word numoutputs, byte
     _reply = MB_REPLY_NORMAL;
 }
 #endif
-
-
-
